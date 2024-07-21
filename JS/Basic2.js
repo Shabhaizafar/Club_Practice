@@ -32,12 +32,12 @@
 
 
 ///////////////////////
-var n1 = 12;
-var n2 = 13;
-         // 12 && 13  
-console.log(n1 && n2);// 13
+// var n1 = 12;
+// var n2 = 13;
+//          // 12 && 13  
+// console.log(n1 && n2);// 13
 
-console.log(n1 || n2);// 12
+// console.log(n1 || n2);// 12
 
 //Truthy and Falsy 
 
