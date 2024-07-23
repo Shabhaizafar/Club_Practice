@@ -129,16 +129,125 @@
 // console.log("After N2 : ",n2); //12
 
 
-const Arr1 = [1,2,3];
+// const Arr1 = [1,2,3];
 
-Arr1= [];
-const Arr2 = Arr1;
-console.log("Before Arr1:",Arr1);
-console.log("Before Arr1:",Arr2);
-Arr1.push(100);
+// Arr1= [];
+// const Arr2 = Arr1;
+// console.log("Before Arr1:",Arr1);
+// console.log("Before Arr1:",Arr2);
+// Arr1.push(100);
 
-Arr2.push(2000);
-console.log("After Arr1:",Arr1);
-console.log("After Arr2:",Arr2);
+// Arr2.push(2000);
+// console.log("After Arr1:",Arr1);
+// console.log("After Arr2:",Arr2);
 
 
+
+/////////////////////////23/07/2024///////////////////////
+
+// ### String Indexing
+// 2. Access and print the last character of a string using its index.
+
+
+/////////////////
+// 3. Create a string and use a loop to print each character on a new line.
+// var str = "Royal";
+// for (let i = 0; i < str.length; i++) {
+//     console.log(i,str[i]);
+// }
+//////////////////
+
+// ### Useful String Methods
+// 1. Use `substring` to extract a part of a string.
+// 3. Use `includes` to check if a string contains a specific word.
+// 6. Use `charAt` to get the character at a specific index in a string.
+// 7. Use `indexOf` to find the position of the first occurrence of a substring.
+// 8. Use `lastIndexOf` to find the position of the last occurrence of a substring.
+// 9. Use `repeat` to repeat a string multiple times and print the result.
+
+
+
+// 2. Use `slice` to create a new string from the 3rd to the 7th character.
+///        1234567
+// var str = "Royal Technosoft pvt ltd.";
+//         01234567
+
+// slice : piece
+// slice(starting index, ending index(optional))
+// console.log(str.slice(2));
+// console.log(str.slice(2,7));
+
+
+// 4. Use `split` to convert a string into an array of words and print the array.
+// var str = "Royal Technosoft pvt ltd.";
+
+// // var newArr = str.split();
+// // var newArr = str.split('');
+// var newArr = str.split(' ');
+// // var newArr = str.split('o');
+
+
+
+// console.log(newArr);
+
+
+// // 5. Use `join` to convert an array of words back into a string and print it.
+
+// // var newstr = newArr.join();
+// // var newstr = newArr.join(' ');
+// var newstr = newArr.join(' || ');
+
+
+
+// console.log(newstr);
+
+///////////////////////////////////////////////////
+// ### Template Strings
+// 1. Create a template string that includes your name and age.
+// 2. Use template strings to concatenate two strings.
+// 3. Create a multi-line template string with a quote on each line.
+
+// 5. Use template strings to create a sentence that includes the length of a string.
+
+// var str = "Royal Technosoft pvt ltd.";
+
+// console.log(`"${str}" and length of String is : ${str.length}.`);
+
+// ### `null`, `undefined`, `BigInt`, `typeof`
+// 1. Declare a variable without initializing it and check if it is `undefined`.
+// 2. Assign `null` to a variable and check its type using `typeof`.
+// 6. Declare a variable using `BigInt` and multiply it by another `BigInt`.
+// 8. Compare `null` with `0` and explain the result.
+// 9. Declare a variable with `undefined` and try to add it to a number.
+
+
+// 3. Create a `BigInt` and use it in an addition operation with another `BigInt`.
+// var num1 = 12n;
+// var num2 = 13;
+// // var num1 = BigInt(12);
+
+// // console.log(num1,typeof num1);
+// console.log(num1+BigInt(num2));
+
+
+// 5. Compare `null` and `undefined` using strict equality and explain the result.
+// var n1 = undefined;
+// var n2 = null;
+// console.log(typeof n1,typeof n2);
+// console.log(n1==n2); //true
+
+// console.log(n1===n2); //false
+
+
+// console.log(0.5+0.1==0.6); //true
+// console.log(0.2+0.1); // 0.3___________________4
+// console.log(0.2+0.1==0.3);//false
+
+// console.log(0.9+0.1==1.0);//true
+
+
+// console.log(18==18);// true
+
+console.log(18==18==18);// false
+
+console.log(18==18==1);// true
