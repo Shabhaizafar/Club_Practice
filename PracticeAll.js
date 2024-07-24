@@ -245,9 +245,114 @@
 
 // console.log(0.9+0.1==1.0);//true
 
-
 // console.log(18==18);// true
+// console.log(18==18==18);// false
+// console.log(18==18==1);// true
 
-console.log(18==18==18);// false
+// ----------------14/07/2024-----------------
 
-console.log(18==18==1);// true
+// ### Booleans and Comparison Operators
+// 2. Use `==` and `===` to compare `42` and `"42"`.
+// 6. Compare two boolean values using `==` and `===`.
+// 8. Use `<`, `<=`, `>`, and `>=` to compare two numbers and print the results.
+
+// 9. Compare two arrays using `==` and `===` and explain the result.
+// var Arr1 = [1,2,3,4];
+// var Arr2 = [1,2,3,4];
+
+// console.log(Arr1==Arr2);
+// console.log(Arr1===Arr2);
+// Arr1.push(12)
+// console.log(Arr1);
+// console.log(Arr2);
+
+
+
+// 4. Use `!=` and `!==` to compare `0` and `false`.
+// var s1 = 0;
+// var s2 = false;
+// console.log(s1!=s2);   //false
+// console.log(s1!==s2);  //true
+// var s1 = '0';
+// var s2 = 'false';
+// console.log(s1!=s2);    //true
+// console.log(s1!==s2);  //true
+
+
+
+
+// ### Truthy and Falsy Values
+// 2. List all falsy values in JavaScript.
+// 4. Check the truthiness of an empty string and print the result.
+// 7. Use an `if` statement to print a message only if a variable is truthy.
+// 9. Check the truthiness of `NaN` and print the result.
+
+
+// 10. Use logical `||` to assign a default value to a variable if another variable is falsy.
+// var v1 = undefined;
+// var v2 = v1 || 100;
+
+// console.log(v1);
+// console.log(v2);
+
+
+
+// 6. Check the truthiness of `0` and print the result.
+
+// var n1 = 0;
+
+// console.log(Boolean(n1));
+
+
+// var n1 = '0';
+
+// console.log(Boolean(n1));
+
+
+// ------------------------------------
+// ### If Else Statement
+// 2. Use `if-else` to check if a string contains more than 10 characters.
+// 4. Use `if-else` to print whether a number is a multiple of 3.
+// 5. Write a function that checks if a value is `null` or `undefined`.
+// 6. Use `if-else` to check if a number is even or odd.
+
+
+// 8. Use `if-else` to check if a number is within a specific range.
+
+// var n = 10;
+// if(n>=1 && n<=parseInt(Math.random()*1000))
+// {
+//     console.log("In Range");
+// }
+// else{
+//     console.log("Out In Range");
+// }
+
+// console.log(Math.random()*10);
+// console.log(parseInt(Math.random()*10));
+// console.log(Math.floor(Math.random()*10));
+
+// 10. Use `if-else` to print a message based on the value of a boolean variable.
+// var n= " ";
+// if(Boolean(n))
+// {
+//     console.log("True");
+// }
+// else{
+//     console.log("False");
+// }
+
+// ### Ternary Operator
+// 2. Use a ternary operator to assign a value to a variable based on a condition.
+// 4. Use a ternary operator to check if a string is empty and return a message.
+// 6. Use a ternary operator to set a variable to `true` if a number is positive, otherwise `false`.
+// 7. Rewrite an `if-else` statement that checks if a number is within a range using a ternary operator.
+// 8. Use a ternary operator to print a message based on the value of a boolean variable.
+
+
+// 10. Use a ternary operator to format a string based on a condition.
+
+// var Age = 20;
+// var str = (Age<18)? "You are Teenager" : "You are Adult";
+
+// console.log(str);
