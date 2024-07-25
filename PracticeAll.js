@@ -313,7 +313,6 @@
 // ### If Else Statement
 // 2. Use `if-else` to check if a string contains more than 10 characters.
 // 4. Use `if-else` to print whether a number is a multiple of 3.
-// 5. Write a function that checks if a value is `null` or `undefined`.
 // 6. Use `if-else` to check if a number is even or odd.
 
 
@@ -356,3 +355,149 @@
 // var str = (Age<18)? "You are Teenager" : "You are Adult";
 
 // console.log(str);
+
+
+//---------------------------25/07/2025-------------------------------//
+// ### Nested If Else
+// 4. Use nested if-else to check if a year is a leap year.
+// 6. Use nested if-else to determine the type of a triangle (equilateral, isosceles, scalene) based on its sides.
+// 10. Use nested if-else to determine the appropriate shipping cost based on the weight of a package.
+
+// 8. Use nested if-else to check the state of an order (processing, shipped, delivered, canceled) based on its status code.
+//1000 : delivered    1001  : shipped  1002 : processing  1004 : canceled
+// var code = 1;
+// if(code>=1000 && code<1002)
+// {
+//     if(code==1000)
+//     {
+//         console.log("Order delivered!!");
+//     }
+//     else{
+//         console.log("order shipped");
+//     }
+// }
+// else{
+//     if(code==1002)
+//     {
+//         console.log("order processing");
+//     }
+//     else{
+//         if(code==1004)
+//         {
+//             console.log("Order canceled");
+//         }
+//         else{
+//             console.log("Invalid Status Code");
+//         }
+//     }
+// }
+
+
+
+
+
+
+
+// ### If Elseif Else
+// 1. Rewrite the age group categorization using `if-elseif-else` statements.
+// 4. Use `if-elseif-else` to determine the season based on the month number.
+// 9. Use `if-elseif-else` to check the grade of a student and print a message based on the grade.
+
+// 7. Use `if-elseif-else` to print a message based on the value of a variable (red, green, blue).
+
+// var value = "Red".toLowerCase();
+// if(value=='red')
+// {
+//     console.log("you are select Red Color !!");
+// }
+// else if(value=='green')
+// {
+//     console.log("You are select Green Color !!");
+// }
+// else if(value=='blue')
+// {
+//     console.log("You are select Blue Color !!");
+// }
+// else{
+//     console.log("You are not selected Valid Color Name.!!");
+// }
+
+
+// ### Switch Statement
+// 1. Write a program that uses a switch statement to print the name of the day based on a number input (1 for Monday, 2 for Tuesday, etc.).
+// 5. Use a switch statement to print the name of the season based on the month number.
+// 7. Write a program that uses a switch statement to print a message based on the traffic light color (red, yellow, green).
+// 8. Use a switch statement to determine the type of a character (vowel, consonant, digit, special character).
+// 10. Use a switch statement to categorize an item based on its type (electronics, clothing, food, furniture).
+
+/Continue/
+// 3. Use a switch statement to categorize a person's age group (child <12, teenager<18, adult>=18, senior>50) based on their age.
+
+
+
+
+// ### While Loop
+// 1. Write a program that prints numbers from 1 to 10 using a while loop.
+// 3. Write a while loop that prints the first 10 even numbers.
+// 5. Write a while loop that calculates the factorial of a given number.
+// 6. Use a while loop to reverse a string.
+// 7. Write a while loop that prints all the elements of an array.
+// 9. Write a while loop that prints the Fibonacci sequence up to a given number.
+// 10. Use a while loop to print the multiplication table of a given number.
+
+// ### While Loop Examples
+// 1. Modify the while loop to print even numbers from 1 to 20.
+// 2. Write a while loop that counts down from 10 to 1 and prints each number.
+// 3. Create a while loop that prints the Fibonacci sequence up to a given number.
+// 4. Write a while loop that finds the sum of all the even numbers from 1 to 100.
+// 5. Create a while loop that reverses a string.
+// 6. Write a while loop that prints all the prime numbers between 1 and 50.
+// 7. Create a while loop that prints the digits of a number in reverse order.
+// 8. Write a while loop that prints the sum of the digits of a number.
+// 9. Use a while loop to find the greatest common divisor (GCD) of two numbers.
+// 10. Write a while loop that counts the number of vowels in a string.
+
+// ### For Loop
+// 1. Write a for loop to print numbers from 1 to 10.
+// 2. Create a for loop that prints the elements of an array.
+// 3. Write a for loop to print the multiplication table of a given number.
+// 4. Create a for loop that calculates the factorial of a given number.
+// 5. Use a for loop to iterate over an array of objects and print each object's properties.
+// 6. Write a for loop to print the first 10 odd numbers.
+// 7. Create a for loop that prints the elements of a matrix (2D array).
+// 8. Write a for loop that finds the sum of all elements in an array.
+// 9. Use a for loop to find the maximum number in an array.
+// 10. Create a for loop that prints the reverse of a string.
+
+// ### For Loop Examples
+// 1. Write a for loop to print the multiplication table of a given number.
+// 2. Create a for loop that calculates the factorial of a given number.
+// 3. Write a for loop that prints the first 10 prime numbers.
+// 4. Use a for loop to print the characters of a string in reverse order.
+// 5. Create a for loop that finds the sum of the digits of a number.
+// 6. Write a for loop that prints the elements of an array in reverse order.
+// 7. Use a for loop to find the average of an array of numbers.
+// 8. Create a for loop that prints the elements of an array of objects.
+// 9. Write a for loop that prints the squares of numbers from 1 to 10.
+// 10. Use a for loop to print the elements of a 2D array in matrix form.
+
+// ### Break and Continue Keyword
+// 1. Write a for loop that uses `break` to exit the loop when a specific condition is met.
+// 2. Write a for loop that uses `continue` to skip even numbers and print only odd numbers.
+// 3. Use `break` in a while loop to exit the loop when a specific condition is met.
+// 4. Write a for loop that uses `continue` to skip elements that are `null` or `undefined`.
+// 6. Write a while loop that uses `break` to stop when a specific value is found.
+// 7. Use `continue` in a for loop to skip over negative numbers in an array.
+// 8. Write a for loop that uses `break` to exit the loop when the sum of elements exceeds a specific value.
+// 10. Write a while loop that uses `break` to stop when a string contains a specific character.
+
+// ### Do While Loop
+// 1. Write a do-while loop that prints numbers from 1 to 10.
+// 3. Write a do-while loop that prints the elements of an array.
+// 4. Use a do-while loop to print the Fibonacci sequence up to a given number.
+// 5. Create a do-while loop that calculates the factorial of a given number.
+// 6. Write a do-while loop that prints the sum of the digits of a number.
+// 7. Use a do-while loop to find the maximum number in an array.
+// 8. Create a do-while loop that prints the first 10 even numbers.
+// 9. Write a do-while loop that finds the sum of all elements in an array.
+// 10. Use a do-while loop to reverse a string.
