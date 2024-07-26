@@ -430,10 +430,38 @@
 // 8. Use a switch statement to determine the type of a character (vowel, consonant, digit, special character).
 // 10. Use a switch statement to categorize an item based on its type (electronics, clothing, food, furniture).
 
-/Continue/
+
+
+
+
+// -------------26/07/2022-------------------//
 // 3. Use a switch statement to categorize a person's age group (child <12, teenager<18, adult>=18, senior>50) based on their age.
 
+// var Age = 57;
+// var A1 = [1,2,3,4,5,6,7,8,9,10,11,12];
+// var A2 = [13,14,15,16,17];
 
+
+// switch (Age)
+// {
+//     case Age :  if(A1.includes(Age))
+//                 {
+//                     console.log("Child");
+//                 }
+//                 else if(A2.includes(Age))
+//                 {
+//                     console.log("Teenger");
+//                 }
+//                 else if(Age>50){
+//                     console.log("senior");
+//                 }
+//                 else if(Age>=18){
+//                     console.log("Adult");
+//                 }
+//                 else{
+//                     console.log("Invalid");
+//                 }
+// }
 
 
 // ### While Loop
@@ -442,8 +470,29 @@
 // 5. Write a while loop that calculates the factorial of a given number.
 // 6. Use a while loop to reverse a string.
 // 7. Write a while loop that prints all the elements of an array.
-// 9. Write a while loop that prints the Fibonacci sequence up to a given number.
 // 10. Use a while loop to print the multiplication table of a given number.
+
+// 9. Write a while loop that prints the Fibonacci sequence up to a given number.
+  //  t t  
+//0,1,1,2,3,5,8,13,21,34....................
+//a b
+//  a b
+// var n = 50;
+// var a = 0;
+// var b = 1;
+// while(1){
+//     console.log(a);
+//     c= b+a;
+//     a=b; 
+//     b=c;
+//     if(a>n)
+//     {
+//         break;
+//     }
+// }
+
+
+
 
 // ### While Loop Examples
 // 1. Modify the while loop to print even numbers from 1 to 20.
@@ -453,9 +502,21 @@
 // 5. Create a while loop that reverses a string.
 // 6. Write a while loop that prints all the prime numbers between 1 and 50.
 // 7. Create a while loop that prints the digits of a number in reverse order.
-// 8. Write a while loop that prints the sum of the digits of a number.
 // 9. Use a while loop to find the greatest common divisor (GCD) of two numbers.
 // 10. Write a while loop that counts the number of vowels in a string.
+
+
+// 8. Write a while loop that prints the sum of the digits of a number.
+// 1234 = 10
+// var n = 769;
+
+// var sum = 0;
+// while(n>0){  // n>0
+//       sum+=n%10;
+//       n = parseInt(n/10);
+// }
+// console.log(sum);
+
 
 // ### For Loop
 // 1. Write a for loop to print numbers from 1 to 10.
@@ -464,22 +525,33 @@
 // 4. Create a for loop that calculates the factorial of a given number.
 // 5. Use a for loop to iterate over an array of objects and print each object's properties.
 // 6. Write a for loop to print the first 10 odd numbers.
-// 7. Create a for loop that prints the elements of a matrix (2D array).
-// 8. Write a for loop that finds the sum of all elements in an array.
-// 9. Use a for loop to find the maximum number in an array.
+
+
 // 10. Create a for loop that prints the reverse of a string.
+// length  12345          
+// var str = "Royal"; //layoR
+// //index    01234
+
+// var revstr ="";
+// for (let i = 0; i < str.length; i++) {
+//     revstr+=str[str.length-1-i]; // 5-1 -1 =3
+// }
+// console.log(revstr);
+
+
 
 // ### For Loop Examples
 // 1. Write a for loop to print the multiplication table of a given number.
 // 2. Create a for loop that calculates the factorial of a given number.
 // 3. Write a for loop that prints the first 10 prime numbers.
-// 4. Use a for loop to print the characters of a string in reverse order.
 // 5. Create a for loop that finds the sum of the digits of a number.
-// 6. Write a for loop that prints the elements of an array in reverse order.
-// 7. Use a for loop to find the average of an array of numbers.
-// 8. Create a for loop that prints the elements of an array of objects.
 // 9. Write a for loop that prints the squares of numbers from 1 to 10.
-// 10. Use a for loop to print the elements of a 2D array in matrix form.
+// 1*1 = 1  2*2  =4
+
+// for (let i = 1; i <=10; i++) {
+//     console.log(i*i);
+// }
+
 
 // ### Break and Continue Keyword
 // 1. Write a for loop that uses `break` to exit the loop when a specific condition is met.
@@ -487,17 +559,33 @@
 // 3. Use `break` in a while loop to exit the loop when a specific condition is met.
 // 4. Write a for loop that uses `continue` to skip elements that are `null` or `undefined`.
 // 6. Write a while loop that uses `break` to stop when a specific value is found.
-// 7. Use `continue` in a for loop to skip over negative numbers in an array.
 // 8. Write a for loop that uses `break` to exit the loop when the sum of elements exceeds a specific value.
 // 10. Write a while loop that uses `break` to stop when a string contains a specific character.
 
+// var final = 10000;
+// var sum=0;
+// for (let i=0;;i++) {
+//     if(sum>=final)
+//         {
+//             break;
+//         }
+//         sum+=i;    
+// }
+// console.log(sum);
+
 // ### Do While Loop
 // 1. Write a do-while loop that prints numbers from 1 to 10.
-// 3. Write a do-while loop that prints the elements of an array.
 // 4. Use a do-while loop to print the Fibonacci sequence up to a given number.
-// 5. Create a do-while loop that calculates the factorial of a given number.
 // 6. Write a do-while loop that prints the sum of the digits of a number.
-// 7. Use a do-while loop to find the maximum number in an array.
 // 8. Create a do-while loop that prints the first 10 even numbers.
-// 9. Write a do-while loop that finds the sum of all elements in an array.
-// 10. Use a do-while loop to reverse a string.
+
+
+// 5. Create a do-while loop that calculates the factorial of a given number.
+// var n = 10;
+// var fact = 1;
+// let i = 1;
+// do{
+//     fact*=i;
+//     i++;
+// }while(i<=n);
+// console.log(fact);
