@@ -42,8 +42,8 @@
 // Basic Method of Array :
 //    - Push pop shift unshift.
 
-var Arr = [11,12,13,14,15];
-console.log(Arr);
+// var Arr = [11,12,13,14,15];
+// console.log(Arr);
 
 
 // 1) push()  : add new Value  at the last index
@@ -81,11 +81,52 @@ console.log(Arr);
 // 2) Add new Element last postion using push and print an Array.
 // 3) Add new Element starting position using unshft and print an array.
 // 4) remove 2 values starting and ending index
-
 ////////////////
-
-
 //    - Primitive vs reference data types.
+// Primitive :
+//1) number 
+//2) string 
+//3) boolean
+
+//reference : 
+// 1) object 
+// 2) Set 
+// 3) Map 
+
+var n1 = 12;
+var n2 = n1;
+console.log("Before :");
+console.log("Value of N1 : ",n1);
+console.log("Value of N2 : ",n2);
+n1++;
+console.log("After : ");
+console.log("Value of N1 : ",n1);
+console.log("Value of N2 : ",n2);
+
+
+var arr1 = [1,2,3];
+var arr2 = arr1;
+console.log("Before :");
+console.log("Value of Arr1 : ",arr1);
+console.log("Value of Arr2 : ",arr2);
+arr1.push(100);
+arr2.push(2000);
+console.log("After : ");
+console.log("Value of Arr1 : ",arr1);
+console.log("Value of Arr2 : ",arr2);
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////
 //    - Clone array & spread operator.
 //    - For loop.
 //    - use const for creating arrays.
