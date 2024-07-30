@@ -1,0 +1,29 @@
+// // Create an Object
+
+// // Create an object person with properties name (string), age (number), and city (string).
+
+
+// ////////////////////////////////////////////
+// // Accessing Properties
+
+// // Given the person object, access and log the name and city properties.
+
+
+// /////////////////////////////////////////////////////////////////////
+// // Updating Properties
+
+// // Update the age property of the person object to 30.
+
+
+
+
+//////////////////////////////////////////////////////////////
+// Adding Properties
+
+// Add a new property country with the value 'USA' to the person object.
+
+//////////////////////////////////////////
+// Deleting Properties
+
+// Delete the city property from the person object.
+
