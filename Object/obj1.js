@@ -72,19 +72,86 @@
 // console.log(obj);
 
 
-
-
-
-
-
-
-
-
-
-
-// - Dot vs Bracket Notation.
+/////////////////////////////////////////////////////////////////////
 // - Iterate objects.
-// - Computed properties.
+// var obj = {
+//     fname :"Raj",
+//     lname : "Shah",
+//     Age : 12,
+//     Gender : "Male",
+//     Address : "GNR"
+// }
+// console.log(obj);
+
+//1) Don't Use basic For Loop
+// for (let i = 0; i < array.length; i++) {
+// }
+
+//2) Don't Use while Loop
+// while (condition) { 
+// }
+
+//3) Don't Use do-while Loop
+// do {
+// } while (condition);
+
+//4) Don't Use foreach Loop
+// foreach loop   : Array
+
+//4) Don't Use for-of Loop
+// for of loop 
+// for (const iterator of obj) {
+// }
+
+
+
+// 1) Workable  
+// for in loop 
+// for (const key in obj) {
+        //not working
+    //    console.log(key,obj.key);
+        // console.log(key,obj[key]);
+// }
+
+
+/////////////////////////////////////
+// - Dot vs Bracket Notation.
+// var obj = {
+//     'first name' :"Raj",
+//     lname : "Shah",
+//     1 : 12,
+//     Gender : "Male",
+//     true : true
+// }
+// console.log(obj);
+
+// // console.log(obj.'first name');
+// console.log(obj["first name"]);
+
+
+
+// for (const key in obj) {
+//         console.log(key,typeof key,"   ||    ",obj[key],typeof obj[key]);
+// }
+
+/////////////////////////////////
+// - Computed properties.    []
+// var key1 = "email";
+// var key2 = "fname";
+
+// var value1 = "royal@gmail.com";
+// var value2 = "Ajay";
+
+// var obj = {
+//     [key1] : value1,
+//     [key2] : value2
+// };
+
+// console.log(obj);
+
+
+
+////////////////////////////////////////////////////
 // - Spread operator in objects.
 // - Object Destructuring.
 // - Objects inside Array.
