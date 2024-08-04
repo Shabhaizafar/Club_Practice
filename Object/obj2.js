@@ -106,3 +106,14 @@ person['Address']['city'] = "AMD";
 
 
 console.log(person);
+
+
+///////////////////////////////////////////////
+// Object Destructuring
+// Use destructuring to extract the name and age properties from the person object.
+
+// Merging Objects
+// Merge two objects obj1 and obj2 into a single object.
+
+// Cloning Objects
+// Create a deep clone of an object using spread Operator.
