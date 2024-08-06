@@ -120,9 +120,9 @@ var result = function (s){  //s perameter
 //     }
     // console.log(Printingsomthing());
 
-    var Printingsomthing = () => {return "Hello";}
+    // var Printingsomthing = () => {return "Hello";}
 
-    var ans = Printingsomthing();
+    // var ans = Printingsomthing();
     // console.log(ans);
     
         // - with argument and with return type 
