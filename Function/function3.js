@@ -14,21 +14,21 @@
 
 //
 //Factorial 
-var n = 5;  //120
-var Fact = 1;
+// var n = 5;  //120
+// var Fact = 1;
 
 
-function Factorial(a){
-    if(a==0)
-    {
-        return Fact;
-    }
-    Fact*=a;
-     Factorial(a-1);
-}
+// function Factorial(a){
+//     if(a==0)
+//     {
+//         return Fact;
+//     }
+//     Fact*=a;
+//      Factorial(a-1);
+// }
 
-var ans = Factorial(n);
-console.log(ans);
+// var ans = Factorial(n);
+// console.log(ans);
 
 
 
@@ -47,3 +47,26 @@ console.log(ans);
 
 // 8208 
 // 8*4 + 2*4 + 0*4 + 8*4 = 8208
+
+
+var n = 121;
+var sum = 0;
+function isArmstong(a){
+    if(a==0)
+    {
+        return sum;
+    }
+    var len = String(n).length;
+    var mul = 1;
+    var temp = a%10;
+    for (let i = 0; i<3; i++) {
+        mul *=temp;
+    }
+    sum+=mul;
+    return isArmstong(parseInt(a/10));
+}
+var ans = isArmstong(n);
+if(sum==n)
+    {
+        
+    }
