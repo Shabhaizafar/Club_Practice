@@ -84,8 +84,8 @@
 
 // Custom Sorting: Sort an array of objects based on a specific property (e.g., age, name).
 
-// Reverse Sorting: Sort an array of numbers in descending order using sort().
 
+// Reverse Sorting: Sort an array of numbers in descending order using sort().
 ////////////////////////////
 //every
 
@@ -124,10 +124,3 @@
 
 
 
-////////////////////////////////////////////
-//    - Foreach method.
-//    - Map method.
-//    - Filter.
-//    - Reduce.
-//    - Splice method.
-//    - Fill method.
