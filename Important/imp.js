@@ -98,8 +98,8 @@
 //  They provide efficient ways to store and manage distinct elements.
 //  Sets support operations like adding, deleting, and checking the presence of items, enhancing performance for tasks requiring uniqueness.
 
-var Arr = [11,12,13,14,15,11,12,13];
-console.log(Arr);
+// var Arr = [11,12,13,14,15,11,12,13];
+// console.log(Arr);
 // console.log(Array.isArray(Arr));//true
 // console.log(Array.isArray("Zafar"));//false
 
@@ -113,8 +113,8 @@ console.log(Arr);
 
 // var mySet = new Set([11,12,13]);
 
-var mySet = new Set(Arr);
-console.log(mySet);
+// var mySet = new Set(Arr);
+// console.log(mySet);
 
 // How to Add a New Value : 
 // mySet.add(100);
@@ -180,4 +180,54 @@ console.log(mySet);
 
 
 ///////////////////////////////////////
-//    - Maps.
+
+// Intersection of Sets:
+//  {1,2,3,4,5} : {2,3,4,5,6,7,8}
+//  {2,3,4,5}
+// Create two Sets and find their intersection. Print the resulting Set.
+
+
+// var mySet1 = new Set([1,2,3,4,5]);
+// var mySet2 = new Set([2,3,4,5,6,7,8]);
+
+// var IntersectionSet = new Set();
+// console.log("Set1 : ",mySet1);
+// console.log("Set2 : ",mySet2);
+// console.log("IntersectionSet : ",IntersectionSet);
+
+// mySet1.forEach(value => {
+//     if(mySet2.has(value))
+//     {
+//         IntersectionSet.add(value);
+//     }
+// });
+
+
+// console.log("IntersectionSet : ",IntersectionSet);
+
+
+
+
+/////////////////////////////////////
+//-----------------------------------
+// Difference of Sets:
+//  {1,2,3,4,5} : {2,3,4,5,6,7,8}
+// {1}
+
+// Create two Sets and find their difference (elements in Set1 that are not in Set2). Print the resulting Set.
+
+// var mySet1 = new Set([1,2,3,4,5]);
+// var mySet2 = new Set([2,3,4,5,6,7,8]);
+
+// var differenceSet = new Set();
+// console.log("Set1 : ",mySet1);
+// console.log("Set2 : ",mySet2);
+// console.log("IntersectionSet : ",differenceSet);
+
+// mySet1.forEach(value => {
+//     if(!mySet2.has(value))
+//     {
+//         differenceSet.add(value);
+//     }
+// });
+// console.log("IntersectionSet : ",differenceSet);
