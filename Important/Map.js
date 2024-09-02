@@ -36,13 +36,13 @@
 
 
 // console.log(myMap.has("name"));
-console.log(myMap);
+// console.log(myMap);
 
 // myMap.clear();
 
 // myMap.delete(1);
 
-console.log(myMap.size);
+// console.log(myMap.size);
 
 //////////////////////////////////
 //////////////////////////
@@ -63,8 +63,24 @@ console.log(myMap.size);
 // Convert Array to Map:
 
 // Convert an array of key-value pairs to a Map. Print the Map.
-/////////////////////
 
+
+// var Arr = [11,12,13,14,15];
+// console.log(Arr);
+
+// var mySet = new Set(Arr);
+// console.log(mySet);
+
+// var myMap = new Map();
+
+// for (const value of Arr) {
+//     myMap.set(value,value);
+// }
+// for (const key in Arr) {
+//     myMap.set(key,Arr[key]);
+// }
+// console.log(myMap);
+/////////////////////
 // Iterate over a Map:
 
 // Iterate over a Map and print each key-value pair.
@@ -83,4 +99,57 @@ console.log(myMap.size);
 // Map from String:
 
 // Create a Map from a string, where each character is a key and its position is the value. Print the Map.
+// var str = "Royal";
+// console.log(str);
+// var myMap = new Map();
+
+// for (const key in str) {
+//     myMap.set(str[key],key);
+// }
+// console.log(myMap);
+
+
+
+
 /////////////////////
+
+// Task 1: Frequency Counter
+// Objective: Create a frequency counter using Map and Set.
+
+// Instructions:
+
+// Write a function countFrequencies(arr) that takes an array of strings and returns a Map where the keys are the unique strings from the array, and the values are the counts of how many times each string appears.
+// Use a Set to store the unique strings as you iterate through the array.
+// After creating the Set, iterate through it and populate the Map with the counts.
+
+///////////////////////////
+// Task 2: Student Enrollment System
+// Objective: Implement a simple student enrollment system using Map and Set.
+
+// Instructions:
+
+// Create a Map where the key is a student ID (a unique identifier) and the value is an object containing the student's name and a Set of enrolled courses.
+// Write functions to:
+// Add a student (if the student ID does not already exist).
+// Enroll a student in a new course.
+// Drop a course for a student.
+// List all students enrolled in a particular course.
+
+//////////////////////////////////////////////
+// Task 3: Unique Items from Multiple Arrays
+// Objective: Find unique items across multiple arrays using Set and Map.
+
+// Instructions:
+
+// Write a function uniqueItemsFromArrays(arrays) that takes an array of arrays and returns a Set of unique items across all the arrays.
+// Use a Map to keep track of the frequency of each item while iterating through all the arrays.
+// After processing all arrays, convert the Map to a Set to get the unique items.
+
+///////////////////////////////////////
+// Task 4: Map of Sets for Grouped Data
+// Objective: Use a Map where each key corresponds to a Set of values, to group data based on a criterion.
+
+// Instructions:
+
+// Write a function groupByCategory(items) that takes an array of objects and groups them by a specified category into a Map. Each category key in the Map should have a Set of items belonging to that category.
+// Iterate through the items and populate the Map accordingly.
