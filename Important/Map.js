@@ -144,7 +144,38 @@
 // Write a function uniqueItemsFromArrays(arrays) that takes an array of arrays and returns a Set of unique items across all the arrays.
 // Use a Map to keep track of the frequency of each item while iterating through all the arrays.
 // After processing all arrays, convert the Map to a Set to get the unique items.
+const arrayOfArrays = [
+    [1, 2, 2],
+    [3, 4, 5],
+    [1, 6, 7],
+    [3, 8, 9]
+  ];
 
+function uniqueItemsFromArrays(arrays){
+    var mySet = new Set();
+
+    for (const element of arrays) {
+       for (const v2 of element) {
+           mySet.add(v2);
+       }
+    }
+    return mySet;
+}
+var newSet = uniqueItemsFromArrays(arrayOfArrays);
+console.log(newSet);
+
+var myMap = new Map();
+newSet.forEach(element => {
+    var counter = 0;
+    for (const v1 of arrayOfArrays) {
+        for (const v2 of v1) {
+            if(v2==element)
+                counter++;
+        }
+     }
+     myMap.set(element,counter);
+});
+console.log(myMap);
 ///////////////////////////////////////
 // Task 4: Map of Sets for Grouped Data
 // Objective: Use a Map where each key corresponds to a Set of values, to group data based on a criterion.
